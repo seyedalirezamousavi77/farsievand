@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+    font-size: 1rem;
+}
+.category{
+    width: 100%;
+    height: 7rem;
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.category h3{
+    text-align: center;
+    line-height: 7rem; 
+}
+.cate:nth-child(2) .category{
+    background-image: url(../img/4.jpg);
+}
+.cate:nth-child(3) .category{
+    background-image: url(../img/soltan.jpg);
+}
+.cate:nth-child(4) .category{
+    background-image: url(../img/3.jpg);
+}
+.cate:nth-child(5) .category{
+    background-image: url(../img/4.jpg);
+}
+.cate:nth-child(6) .category{
+    background-image: url(../img/soltan.jpg);
+}
